@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Default" xmi:id="_Mwgx8O5VEe6lpNL3ELNLnQ">
+    <contextParameter comment="" name="NewYork_file_Header" prompt="NewYork_file_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_Mwgx8e5VEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_file_FieldSeparator" prompt="NewYork_file_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_Mwgx8u5VEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_file_RowSeparator" prompt="NewYork_file_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_Mwgx8-5VEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_file_Encoding" prompt="NewYork_file_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_Mwgx9O5VEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_file_File" prompt="NewYork_file_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="/Users/shantanumahakal/Downloads/NewYork/NY_Motor_Vehicle_Collisions_-_Crashes_20240326.tsv" xmi:id="_Mwgx9e5VEe6lpNL3ELNLnQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Dev" xmi:id="_Mwgx9u5VEe6lpNL3ELNLnQ">
+    <contextParameter comment="" name="NewYork_file_Header" prompt="NewYork_file_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_Mwgx9-5VEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_file_FieldSeparator" prompt="NewYork_file_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_Mwgx-O5VEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_file_RowSeparator" prompt="NewYork_file_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_Mwgx-e5VEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_file_Encoding" prompt="NewYork_file_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_Mwgx-u5VEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_file_File" prompt="NewYork_file_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="/Users/shantanumahakal/Downloads/NewYork/NY_Motor_Vehicle_Collisions_-_Crashes_20240326.tsv" xmi:id="_Mwgx--5VEe6lpNL3ELNLnQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Prod" xmi:id="_Mwgx_O5VEe6lpNL3ELNLnQ">
+    <contextParameter comment="" name="NewYork_file_Header" prompt="NewYork_file_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_Mwgx_e5VEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_file_FieldSeparator" prompt="NewYork_file_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_Mwgx_u5VEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_file_RowSeparator" prompt="NewYork_file_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_Mwgx_-5VEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_file_Encoding" prompt="NewYork_file_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_MwgyAO5VEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_file_File" prompt="NewYork_file_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="/Users/shantanumahakal/Downloads/NewYork/NY_Motor_Vehicle_Collisions_-_Crashes_20240326.tsv" xmi:id="_MwgyAe5VEe6lpNL3ELNLnQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Staging" xmi:id="_MwgyAu5VEe6lpNL3ELNLnQ">
+    <contextParameter comment="" name="NewYork_file_Header" prompt="NewYork_file_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_MwgyA-5VEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_file_FieldSeparator" prompt="NewYork_file_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_MwgyBO5VEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_file_RowSeparator" prompt="NewYork_file_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_MwgyBe5VEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_file_Encoding" prompt="NewYork_file_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_MwgyBu5VEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_file_File" prompt="NewYork_file_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="/Users/shantanumahakal/Downloads/NewYork/NY_Motor_Vehicle_Collisions_-_Crashes_20240326.tsv" xmi:id="_MwgyB-5VEe6lpNL3ELNLnQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Test" xmi:id="_MwgyCO5VEe6lpNL3ELNLnQ">
+    <contextParameter comment="" name="NewYork_file_Header" prompt="NewYork_file_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_MwgyCe5VEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_file_FieldSeparator" prompt="NewYork_file_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_MwgyCu5VEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_file_RowSeparator" prompt="NewYork_file_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_MwgyC-5VEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_file_Encoding" prompt="NewYork_file_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_MwgyDO5VEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_file_File" prompt="NewYork_file_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="/Users/shantanumahakal/Downloads/NewYork/NY_Motor_Vehicle_Collisions_-_Crashes_20240326.tsv" xmi:id="_MwgyDe5VEe6lpNL3ELNLnQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_3787d226-917d-4bbb-81da-d3656ce68f43"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>6WQbpB9RR7YlSNH3Y2Iy0PtivOuqb8qQG2uGjGp3v00inNAzM26q2rbckEe8x3dQf/wCJ/3bacyO&#13;
+TbhdjpzjkQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6eacf99b-6645-4235-bb0e-eaa1eb854ff5"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>pqMWbOBNQErfu2wTSQ5jC9zpLjTwLRY2143dXDTuEeGKbyIS7DTKAeIwa59H9QXpdM6Gj/tduy+b&#13;
+nBknokE6pg==</DigestValue></Reference></SignedInfo><SignatureValue>RlHQG50jnMRDJ2wyXD6Pu7vUFSl++5i08NseI8tyojFz6XChOkXfOaPmyHxvBR4hdk4vQ20/AUpq&#13;
+kkh9FjqrsQa0MI5OwZMExPfds0OylGWtlzwY4q5TH7OsPCQHkNeRiU1U5X6v0L1Jy43KL/ut+15F&#13;
+qL0wRccM6G5ixZELRiiHFQlBihkeCaKRQPy5ERdUGrBXKd10qPLdBb1odTz6JVQPHM+AY5g5BYFe&#13;
+E9Q2FfHg6kInDytNP4eAv+4/tst+VXFlsWSaWkqtK3ofPf2JMnaKzw6/S0RgO5LaEMKlv5bbiJnd&#13;
+SK9pCPqgEao0ZvskzijugEjEcvCZpd1OVLzUKQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6eacf99b-6645-4235-bb0e-eaa1eb854ff5" Target="#_3787d226-917d-4bbb-81da-d3656ce68f43"><Timestamp>2024-03-30 05:20:19</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

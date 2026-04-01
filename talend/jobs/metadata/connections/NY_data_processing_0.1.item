@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection AdditionalParams="" DatabaseType="Microsoft SQL Server" DatasourceName="" DbmsId="id_MSSQL" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" FileFieldName="" NullChar="" Password="enc:system.encryption.key.v1:5WGpqc1Aj8UE0R/I8sGYu3PAgATyv2iA5QalqTVRoRa5XDwkyGwmTQ==" Port="1433" ProductId="SQL_SERVER" SID="Talend_NY_processing" SQLMode="false" ServerName="localhost" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:sqlserver://localhost:1433;DatabaseName=Talend_NY_processing;" UiSchema="dbo" Username="SA" dataPackage="_LM5JQPMaEe6wA7isFeccXQ" dbVersionString="MSSQL_PROP" id="_DWLrsPMaEe6wA7isFeccXQ" label="NY_data_processing" name="NY_data_processing" supportNLS="false" xmi:id="_LLeM8PMaEe6wA7isFeccXQ">
+    <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_LLeM8fMaEe6wA7isFeccXQ"/>
+    <taggedValue tag="package filter" value="" xmi:id="_LLuEkPMaEe6wA7isFeccXQ"/>
+    <taggedValue tag="Status" value="" xmi:id="_LLxu8PMaEe6wA7isFeccXQ"/>
+    <taggedValue tag="Version" value="0.1" xmi:id="_LLxu8fMaEe6wA7isFeccXQ"/>
+    <taggedValue tag="Purpose" value="" xmi:id="_LLxu8vMaEe6wA7isFeccXQ"/>
+    <taggedValue tag="Description" value="" xmi:id="_LLxu8_MaEe6wA7isFeccXQ"/>
+    <taggedValue tag="Author" value="" xmi:id="_LLxu9PMaEe6wA7isFeccXQ"/>
+    <taggedValue tag="otherParameter" xmi:id="_LLxu9fMaEe6wA7isFeccXQ"/>
+    <taggedValue tag="DB ProductName" value="Microsoft SQL Server" xmi:id="_LMBmkPMaEe6wA7isFeccXQ"/>
+    <taggedValue tag="DB ProductVersion" value="15.00.2000" xmi:id="_LMBmkfMaEe6wA7isFeccXQ"/>
+    <taggedValue tag="DB IdentifierQuoteString" value="&quot;" xmi:id="_LMBmkvMaEe6wA7isFeccXQ"/>
+    <parameters key="CONN_PARA_KEY_USERNAME" value="SA" xmi:id="_LLeM8vMaEe6wA7isFeccXQ"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog dataManager="_LLeM8PMaEe6wA7isFeccXQ" name="Talend_NY_processing" xmi:id="_LM5JQPMaEe6wA7isFeccXQ">
+    <ownedElement name="dbo" xmi:id="_LM5JQfMaEe6wA7isFeccXQ" xsi:type="orgomg.cwm.resource.relational:Schema">
+      <ownedElement id="_AFqq4PVDEe65R_WoQFRyrg" label="NY_p_final" name="NY_p_final" tableType="TABLE" xmi:id="_AFqq4fVDEe65R_WoQFRyrg" xsi:type="relational:TdTable">
+        <feature label="Crash_ID" length="10" name="Crash_ID" sourceType="INT" talendType="id_Integer" xmi:id="_FXWy0PZHEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4PexYfnaEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4PexYvnaEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_4PexY_naEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="CRASH_DATE" length="10" name="CRASH_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_FXWy1PZHEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4PexZfnaEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4PexZvnaEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="91" name="DATE" nullable="columnNullable" xmi:id="_4PexZ_naEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="CRASH_TIME" length="100" name="CRASH_TIME" sourceType="VARCHAR" talendType="id_String" xmi:id="_BO_qdPVDEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4PexafnaEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4PexavnaEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_4Pexa_naEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="Crash_Hour" length="10" name="Crash_Hour" sourceType="INT" talendType="id_Integer" xmi:id="_Hvko1PZhEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4PexbfnaEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4PexbvnaEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_4Pexb_naEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="LATITUDE" length="53" name="LATITUDE" sourceType="FLOAT" talendType="id_Double" xmi:id="_BO_qePVDEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4PexcfnaEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4PexcvnaEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="8" name="FLOAT" nullable="columnNullable" numericPrecisionRadix="2" xmi:id="_4Pexc_naEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="LONGITUDE" length="53" name="LONGITUDE" sourceType="FLOAT" talendType="id_Double" xmi:id="_BO_qfPVDEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4PexdfnaEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4PexdvnaEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="8" name="FLOAT" nullable="columnNullable" numericPrecisionRadix="2" xmi:id="_4Pexd_naEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="ON_STREET_NAME" length="100" name="ON_STREET_NAME" sourceType="VARCHAR" talendType="id_String" xmi:id="_BO_qgPVDEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4PexefnaEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4PexevnaEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_4Pexe_naEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="NUMBER_OF_PERSONS_INJURED" length="10" name="NUMBER_OF_PERSONS_INJURED" sourceType="INT" talendType="id_Integer" xmi:id="_BO_qhPVDEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4PexffnaEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4PexfvnaEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_4Pexf_naEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="NUMBER_OF_PERSONS_KILLED" length="10" name="NUMBER_OF_PERSONS_KILLED" sourceType="INT" talendType="id_Integer" xmi:id="_BO_qiPVDEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4PexgfnaEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4PexgvnaEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_4Pexg_naEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="NUMBER_OF_PEDESTRIANS_INJURED" length="10" name="NUMBER_OF_PEDESTRIANS_INJURED" sourceType="INT" talendType="id_Integer" xmi:id="_BO_qjPVDEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4PexhfnaEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4PexhvnaEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_4Pexh_naEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="NUMBER_OF_PEDESTRIANS_KILLED" length="10" name="NUMBER_OF_PEDESTRIANS_KILLED" sourceType="INT" talendType="id_Integer" xmi:id="_BO_qkPVDEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4PexifnaEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4PexivnaEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_4Pexi_naEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="NUMBER_OF_CYCLIST_INJURED" length="10" name="NUMBER_OF_CYCLIST_INJURED" sourceType="INT" talendType="id_Integer" xmi:id="_BO_qlPVDEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4PexjfnaEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4PexjvnaEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_4Pexj_naEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="NUMBER_OF_CYCLIST_KILLED" length="10" name="NUMBER_OF_CYCLIST_KILLED" sourceType="INT" talendType="id_Integer" xmi:id="_BO_qmPVDEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4PexkfnaEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4PexkvnaEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_4Pexk_naEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="NUMBER_OF_MOTORIST_INJURED" length="10" name="NUMBER_OF_MOTORIST_INJURED" sourceType="INT" talendType="id_Integer" xmi:id="_BO_qnPVDEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4PexlfnaEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4PexlvnaEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_4Pexl_naEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="NUMBER_OF_MOTORIST_KILLED" length="10" name="NUMBER_OF_MOTORIST_KILLED" sourceType="INT" talendType="id_Integer" xmi:id="_BO_qoPVDEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4PexmfnaEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4PexmvnaEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_4Pexm_naEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="Code" length="10" name="Code" sourceType="INT" talendType="id_Integer" xmi:id="_BO_qqPVDEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4PexofnaEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4PexovnaEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_4Pexo_naEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="Contributing_Factor_Description" length="1000" name="Contributing_Factor_Description" sourceType="VARCHAR" talendType="id_String" xmi:id="_dHbuwPq1Ee6mxOzCyzPf1w" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_dHbuwfq1Ee6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_dHbuwvq1Ee6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_dHbuw_q1Ee6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="Vehicle_Type" length="1000" name="Vehicle_Type" sourceType="VARCHAR" talendType="id_String" xmi:id="_BO_qrPVDEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4PexpfnaEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4PexpvnaEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_4Pexp_naEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="Vehicle_Type_Code" length="10" name="Vehicle_Type_Code" sourceType="INT" talendType="id_Integer" xmi:id="_XSZKLPboEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4PexqfnaEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4PexqvnaEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_4Pexq_naEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="City" length="100" name="City" sourceType="VARCHAR" talendType="id_String" xmi:id="_FA0YmPbaEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4PexrfnaEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4PexrvnaEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_4Pexr_naEe6mxOzCyzPf1w"/>
+        </feature>
+      </ownedElement>
+      <ownedElement id="_Wh580PPiEe6xudNKDJRYNw" label="NY_p_part1" name="NY_p_part1" tableType="TABLE" xmi:id="_Wh580fPiEe6xudNKDJRYNw" xsi:type="relational:TdTable">
+        <feature label="COLLISION_ID" length="10" name="COLLISION_ID" sourceType="INT" talendType="id_Integer" xmi:id="_Wh580vPiEe6xudNKDJRYNw" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_Bg1J0fYeEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_Bg1J0vYeEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_Bg1J0_YeEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="CRASH_DATE" length="100" name="CRASH_DATE" pattern="&quot;MM/dd/yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_Wh581vPiEe6xudNKDJRYNw" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_Bg1J1fYeEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_Bg1J1vYeEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_Bg1J1_YeEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="CRASH_TIME" length="100" name="CRASH_TIME" sourceType="VARCHAR" talendType="id_String" xmi:id="_Wh582vPiEe6xudNKDJRYNw" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_Bg1J2fYeEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_Bg1J2vYeEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_Bg1J2_YeEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="LATITUDE" length="53" name="LATITUDE" precision="9" sourceType="FLOAT" talendType="id_Double" xmi:id="_Wh583vPiEe6xudNKDJRYNw" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_Bg1J3fYeEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_Bg1J3vYeEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_Bg1J3_YeEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="LONGITUDE" length="53" name="LONGITUDE" precision="9" sourceType="FLOAT" talendType="id_Double" xmi:id="_Wh584vPiEe6xudNKDJRYNw" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_Bg1J4fYeEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_Bg1J4vYeEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_Bg1J4_YeEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="ON_STREET_NAME" length="100" name="ON_STREET_NAME" sourceType="VARCHAR" talendType="id_String" xmi:id="_0QCxVPUBEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_Bg1J5fYeEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_Bg1J5vYeEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_Bg1J5_YeEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_PERSONS_INJURED" length="100" name="NUMBER_OF_PERSONS_INJURED" sourceType="INT" talendType="id_Integer" xmi:id="_Wh585vPiEe6xudNKDJRYNw" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_Bg1J6fYeEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_Bg1J6vYeEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_Bg1J6_YeEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_PERSONS_KILLED" length="100" name="NUMBER_OF_PERSONS_KILLED" sourceType="INT" talendType="id_Integer" xmi:id="_Wh586vPiEe6xudNKDJRYNw" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_Bg1J7fYeEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_Bg1J7vYeEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_Bg1J7_YeEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_PEDESTRIANS_INJURED" length="100" name="NUMBER_OF_PEDESTRIANS_INJURED" sourceType="INT" talendType="id_Integer" xmi:id="_Wh587vPiEe6xudNKDJRYNw" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_Bg1J8fYeEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_Bg1J8vYeEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_Bg1J8_YeEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_PEDESTRIANS_KILLED" length="100" name="NUMBER_OF_PEDESTRIANS_KILLED" sourceType="INT" talendType="id_Integer" xmi:id="_Wh588vPiEe6xudNKDJRYNw" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_Bg1J9fYeEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_Bg1J9vYeEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_Bg1J9_YeEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_CYCLIST_INJURED" length="100" name="NUMBER_OF_CYCLIST_INJURED" sourceType="INT" talendType="id_Integer" xmi:id="_Wh589vPiEe6xudNKDJRYNw" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_Bg1J-fYeEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_Bg1J-vYeEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_Bg1J-_YeEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_CYCLIST_KILLED" length="100" name="NUMBER_OF_CYCLIST_KILLED" sourceType="INT" talendType="id_Integer" xmi:id="_Wh58-vPiEe6xudNKDJRYNw" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_Bg1J_fYeEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_Bg1J_vYeEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_Bg1J__YeEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_MOTORIST_INJURED" length="100" name="NUMBER_OF_MOTORIST_INJURED" sourceType="INT" talendType="id_Integer" xmi:id="_Wh58_vPiEe6xudNKDJRYNw" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_Bg1KAfYeEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_Bg1KAvYeEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_Bg1KA_YeEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_MOTORIST_KILLED" length="100" name="NUMBER_OF_MOTORIST_KILLED" sourceType="INT" talendType="id_Integer" xmi:id="_Wh59AvPiEe6xudNKDJRYNw" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_Bg1KBfYeEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_Bg1KBvYeEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_Bg1KB_YeEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="Contributing_factor_merged" length="100" name="Contributing_factor_merged" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_Bg1KCPYeEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_Bg1KCfYeEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_Bg1KCvYeEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" xmi:id="_Bg1KC_YeEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="VEHICLE_TYPE_CODE_1" length="100" name="VEHICLE_TYPE_CODE_1" sourceType="VARCHAR" talendType="id_String" xmi:id="_Wh59GvPiEe6xudNKDJRYNw" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_Bg1KDfYeEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_Bg1KDvYeEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_Bg1KD_YeEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="VEHICLE_TYPE_CODE_2" length="100" name="VEHICLE_TYPE_CODE_2" sourceType="VARCHAR" talendType="id_String" xmi:id="_Wh59HvPiEe6xudNKDJRYNw" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_Bg1KEfYeEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_Bg1KEvYeEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_Bg1KE_YeEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="VEHICLE_TYPE_CODE_3" length="100" name="VEHICLE_TYPE_CODE_3" sourceType="VARCHAR" talendType="id_String" xmi:id="_Wh59IvPiEe6xudNKDJRYNw" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_Bg1KFfYeEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_Bg1KFvYeEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_Bg1KF_YeEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="VEHICLE_TYPE_CODE_4" length="100" name="VEHICLE_TYPE_CODE_4" sourceType="VARCHAR" talendType="id_String" xmi:id="_Wh59JvPiEe6xudNKDJRYNw" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_Bg1KGfYeEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_Bg1KGvYeEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_Bg1KG_YeEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="VEHICLE_TYPE_CODE_5" length="100" name="VEHICLE_TYPE_CODE_5" sourceType="VARCHAR" talendType="id_String" xmi:id="_Wh59KvPiEe6xudNKDJRYNw" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_Bg1KHfYeEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_Bg1KHvYeEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_Bg1KH_YeEe65R_WoQFRyrg"/>
+        </feature>
+      </ownedElement>
+      <ownedElement id="_mXBUsPU9Ee65R_WoQFRyrg" label="NY_p_part2" name="NY_p_part2" tableType="TABLE" xmi:id="_mXBUsfU9Ee65R_WoQFRyrg" xsi:type="relational:TdTable">
+        <feature label="COLLISION_ID" length="10" name="COLLISION_ID" sourceType="INT" talendType="id_Integer" xmi:id="_oPM-UPU9Ee65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_oPM-UfU9Ee65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_oPM-UvU9Ee65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_oPM-U_U9Ee65R_WoQFRyrg"/>
+        </feature>
+        <feature label="CRASH_DATE" length="10" name="CRASH_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_oPM-VPU9Ee65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_oPM-VfU9Ee65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_oPM-VvU9Ee65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="91" name="DATE" nullable="columnNullable" xmi:id="_oPM-V_U9Ee65R_WoQFRyrg"/>
+        </feature>
+        <feature label="CRASH_TIME" length="100" name="CRASH_TIME" sourceType="VARCHAR" talendType="id_String" xmi:id="_oPM-WPU9Ee65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_oPM-WfU9Ee65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_oPM-WvU9Ee65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_oPM-W_U9Ee65R_WoQFRyrg"/>
+        </feature>
+        <feature label="LATITUDE" length="53" name="LATITUDE" sourceType="FLOAT" talendType="id_Double" xmi:id="_oPM-XPU9Ee65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_oPM-XfU9Ee65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_oPM-XvU9Ee65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="8" name="FLOAT" nullable="columnNullable" numericPrecisionRadix="2" xmi:id="_oPM-X_U9Ee65R_WoQFRyrg"/>
+        </feature>
+        <feature label="LONGITUDE" length="53" name="LONGITUDE" sourceType="FLOAT" talendType="id_Double" xmi:id="_oPM-YPU9Ee65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_oPM-YfU9Ee65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_oPM-YvU9Ee65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="8" name="FLOAT" nullable="columnNullable" numericPrecisionRadix="2" xmi:id="_oPM-Y_U9Ee65R_WoQFRyrg"/>
+        </feature>
+        <feature label="ON_STREET_NAME" length="100" name="ON_STREET_NAME" sourceType="VARCHAR" talendType="id_String" xmi:id="_oPM-ZPU9Ee65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_oPM-ZfU9Ee65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_oPM-ZvU9Ee65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_oPM-Z_U9Ee65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_PERSONS_INJURED" length="10" name="NUMBER_OF_PERSONS_INJURED" sourceType="INT" talendType="id_Integer" xmi:id="_oPM-aPU9Ee65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_oPM-afU9Ee65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_oPM-avU9Ee65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_oPM-a_U9Ee65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_PERSONS_KILLED" length="10" name="NUMBER_OF_PERSONS_KILLED" sourceType="INT" talendType="id_Integer" xmi:id="_oPM-bPU9Ee65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_oPM-bfU9Ee65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_oPM-bvU9Ee65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_oPM-b_U9Ee65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_PEDESTRIANS_INJURED" length="10" name="NUMBER_OF_PEDESTRIANS_INJURED" sourceType="INT" talendType="id_Integer" xmi:id="_oPM-cPU9Ee65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_oPM-cfU9Ee65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_oPM-cvU9Ee65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_oPM-c_U9Ee65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_PEDESTRIANS_KILLED" length="10" name="NUMBER_OF_PEDESTRIANS_KILLED" sourceType="INT" talendType="id_Integer" xmi:id="_oPM-dPU9Ee65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_oPM-dfU9Ee65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_oPM-dvU9Ee65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_oPM-d_U9Ee65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_CYCLIST_INJURED" length="10" name="NUMBER_OF_CYCLIST_INJURED" sourceType="INT" talendType="id_Integer" xmi:id="_oPM-ePU9Ee65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_oPM-efU9Ee65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_oPM-evU9Ee65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_oPM-e_U9Ee65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_CYCLIST_KILLED" length="10" name="NUMBER_OF_CYCLIST_KILLED" sourceType="INT" talendType="id_Integer" xmi:id="_oPM-fPU9Ee65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_oPM-ffU9Ee65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_oPM-fvU9Ee65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_oPM-f_U9Ee65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_MOTORIST_INJURED" length="10" name="NUMBER_OF_MOTORIST_INJURED" sourceType="INT" talendType="id_Integer" xmi:id="_oPM-gPU9Ee65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_oPM-gfU9Ee65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_oPM-gvU9Ee65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_oPM-g_U9Ee65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_MOTORIST_KILLED" length="10" name="NUMBER_OF_MOTORIST_KILLED" sourceType="INT" talendType="id_Integer" xmi:id="_oPM-hPU9Ee65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_oPM-hfU9Ee65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_oPM-hvU9Ee65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_oPM-h_U9Ee65R_WoQFRyrg"/>
+        </feature>
+        <feature label="Contributing_Cause" length="1000" name="Contributing_Cause" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_oPM-iPU9Ee65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_oPM-ifU9Ee65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_oPM-ivU9Ee65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" xmi:id="_oPM-i_U9Ee65R_WoQFRyrg"/>
+        </feature>
+        <feature label="Vehicle_Type" length="1000" name="Vehicle_Type" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_oPM-jPU9Ee65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_oPM-jfU9Ee65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_oPM-jvU9Ee65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" xmi:id="_oPM-j_U9Ee65R_WoQFRyrg"/>
+        </feature>
+      </ownedElement>
+      <ownedElement id="_uF3vYPVAEe65R_WoQFRyrg" label="NY_p_part3" name="NY_p_part3" tableType="TABLE" xmi:id="_uF4WcPVAEe65R_WoQFRyrg" xsi:type="relational:TdTable">
+        <feature label="Crash_ID" length="10" name="Crash_ID" sourceType="INT" talendType="id_Integer" xmi:id="_HIQaoPZFEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_HIQaofZFEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_HIQaovZFEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_HIQao_ZFEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="CRASH_DATE" length="10" name="CRASH_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_vH6bMPVAEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_vH6bMfVAEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_vH6bMvVAEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="91" name="DATE" nullable="columnNullable" xmi:id="_vH6bM_VAEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="CRASH_TIME" length="100" name="CRASH_TIME" sourceType="VARCHAR" talendType="id_String" xmi:id="_vH6bNPVAEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_vH6bNfVAEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_vH6bNvVAEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_vH6bN_VAEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="LATITUDE" length="24" name="LATITUDE" sourceType="REAL" talendType="id_Float" xmi:id="_vH6bOPVAEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_vH6bOfVAEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_vH6bOvVAEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="7" name="REAL" nullable="columnNullable" numericPrecisionRadix="2" xmi:id="_vH6bO_VAEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="LONGITUDE" length="24" name="LONGITUDE" sourceType="REAL" talendType="id_Float" xmi:id="_vH6bPPVAEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_vH6bPfVAEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_vH6bPvVAEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="7" name="REAL" nullable="columnNullable" numericPrecisionRadix="2" xmi:id="_vH6bP_VAEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="ON_STREET_NAME" length="100" name="ON_STREET_NAME" sourceType="VARCHAR" talendType="id_String" xmi:id="_vH6bQPVAEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_vH6bQfVAEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_vH6bQvVAEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_vH6bQ_VAEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_PERSONS_INJURED" length="10" name="NUMBER_OF_PERSONS_INJURED" sourceType="INT" talendType="id_Integer" xmi:id="_vH6bRPVAEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_vH6bRfVAEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_vH6bRvVAEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_vH6bR_VAEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_PERSONS_KILLED" length="10" name="NUMBER_OF_PERSONS_KILLED" sourceType="INT" talendType="id_Integer" xmi:id="_vH6bSPVAEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_vH6bSfVAEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_vH6bSvVAEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_vH6bS_VAEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_PEDESTRIANS_INJURED" length="10" name="NUMBER_OF_PEDESTRIANS_INJURED" sourceType="INT" talendType="id_Integer" xmi:id="_vH6bTPVAEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_vH6bTfVAEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_vH6bTvVAEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_vH6bT_VAEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_PEDESTRIANS_KILLED" length="10" name="NUMBER_OF_PEDESTRIANS_KILLED" sourceType="INT" talendType="id_Integer" xmi:id="_vH6bUPVAEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_vH6bUfVAEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_vH6bUvVAEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_vH6bU_VAEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_CYCLIST_INJURED" length="10" name="NUMBER_OF_CYCLIST_INJURED" sourceType="INT" talendType="id_Integer" xmi:id="_vH6bVPVAEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_vH6bVfVAEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_vH6bVvVAEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_vH6bV_VAEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_CYCLIST_KILLED" length="10" name="NUMBER_OF_CYCLIST_KILLED" sourceType="INT" talendType="id_Integer" xmi:id="_vH6bWPVAEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_vH6bWfVAEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_vH6bWvVAEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_vH6bW_VAEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_MOTORIST_INJURED" length="10" name="NUMBER_OF_MOTORIST_INJURED" sourceType="INT" talendType="id_Integer" xmi:id="_vH6bXPVAEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_vH6bXfVAEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_vH6bXvVAEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_vH6bX_VAEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_MOTORIST_KILLED" length="10" name="NUMBER_OF_MOTORIST_KILLED" sourceType="INT" talendType="id_Integer" xmi:id="_vH6bYPVAEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_vH6bYfVAEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_vH6bYvVAEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_vH6bY_VAEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="Contributing_Cause" length="1000" name="Contributing_Cause" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_vH6bZPVAEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_vH6bZfVAEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_vH6bZvVAEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" xmi:id="_vH6bZ_VAEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="Code" length="10" name="Code" sourceType="INT" talendType="id_Integer" xmi:id="_vH6baPVAEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_vH6bafVAEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_vH6bavVAEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_vH6ba_VAEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="Vehicle_Type" length="1000" name="Vehicle_Type" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_vH6bbPVAEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_vH6bbfVAEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_vH6bbvVAEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" xmi:id="_vH6bb_VAEe65R_WoQFRyrg"/>
+        </feature>
+      </ownedElement>
+      <ownedElement id="_vZvxEPVLEe65R_WoQFRyrg" label="NY_p_part4" name="NY_p_part4" tableType="TABLE" xmi:id="_vZwYIPVLEe65R_WoQFRyrg" xsi:type="relational:TdTable">
+        <feature label="Crash_ID" length="10" name="Crash_ID" sourceType="INT" talendType="id_Integer" xmi:id="_5bNmYPZFEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_5bNmYfZFEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_5bNmYvZFEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_5bNmY_ZFEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="CRASH_DATE" length="10" name="CRASH_DATE" pattern="&quot;MM/dd/yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_wlqKlPVLEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_wlqKlfVLEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_wlqKlvVLEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="91" name="DATE" nullable="columnNullable" xmi:id="_wlqKl_VLEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="CRASH_TIME" length="100" name="CRASH_TIME" sourceType="VARCHAR" talendType="id_String" xmi:id="_wlqKmPVLEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_wlqKmfVLEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_wlqKmvVLEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_wlqKm_VLEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="LATITUDE" length="24" name="LATITUDE" sourceType="FLOAT" talendType="id_Double" xmi:id="_wlqKnPVLEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_wlqKnfVLEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_wlqKnvVLEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="7" name="REAL" nullable="columnNullable" numericPrecisionRadix="2" xmi:id="_wlqKn_VLEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="LONGITUDE" length="24" name="LONGITUDE" sourceType="FLOAT" talendType="id_Double" xmi:id="_wlqKoPVLEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_wlqKofVLEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_wlqKovVLEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="7" name="REAL" nullable="columnNullable" numericPrecisionRadix="2" xmi:id="_wlqKo_VLEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="ON_STREET_NAME" length="100" name="ON_STREET_NAME" sourceType="VARCHAR" talendType="id_String" xmi:id="_wlqKpPVLEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_wlqKpfVLEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_wlqKpvVLEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_wlqKp_VLEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_PERSONS_INJURED" length="10" name="NUMBER_OF_PERSONS_INJURED" sourceType="INT" talendType="id_Integer" xmi:id="_wlqKqPVLEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_wlqKqfVLEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_wlqKqvVLEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_wlqKq_VLEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_PERSONS_KILLED" length="10" name="NUMBER_OF_PERSONS_KILLED" sourceType="INT" talendType="id_Integer" xmi:id="_wlqKrPVLEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_wlqKrfVLEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_wlqKrvVLEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_wlqKr_VLEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_PEDESTRIANS_INJURED" length="10" name="NUMBER_OF_PEDESTRIANS_INJURED" sourceType="INT" talendType="id_Integer" xmi:id="_wlqKsPVLEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_wlqKsfVLEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_wlqKsvVLEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_wlqKs_VLEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_PEDESTRIANS_KILLED" length="10" name="NUMBER_OF_PEDESTRIANS_KILLED" sourceType="INT" talendType="id_Integer" xmi:id="_wlqKtPVLEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_wlqKtfVLEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_wlqKtvVLEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_wlqKt_VLEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_CYCLIST_INJURED" length="10" name="NUMBER_OF_CYCLIST_INJURED" sourceType="INT" talendType="id_Integer" xmi:id="_jDqnpPZDEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_jDqnpfZDEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_jDqnpvZDEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_jDqnp_ZDEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_CYCLIST_KILLED" length="10" name="NUMBER_OF_CYCLIST_KILLED" sourceType="INT" talendType="id_Integer" xmi:id="_jDqnqPZDEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_jDqnqfZDEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_jDqnqvZDEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_jDqnq_ZDEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_MOTORIST_INJURED" length="10" name="NUMBER_OF_MOTORIST_INJURED" sourceType="INT" talendType="id_Integer" xmi:id="_wlqKuPVLEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_wlqKufVLEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_wlqKuvVLEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_wlqKu_VLEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="NUMBER_OF_MOTORIST_KILLED" length="10" name="NUMBER_OF_MOTORIST_KILLED" sourceType="INT" talendType="id_Integer" xmi:id="_wlqKvPVLEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_wlqKvfVLEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_wlqKvvVLEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_wlqKv_VLEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="Contributing_Cause" length="1000" name="Contributing_Cause" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_jDqntPZDEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_jDqntfZDEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_jDqntvZDEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" xmi:id="_jDqnt_ZDEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="Code" length="10" name="Code" sourceType="INT" talendType="id_Integer" xmi:id="_jDqnuPZDEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_jDqnufZDEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_jDqnuvZDEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_jDqnu_ZDEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="Vehicle_Type" length="1000" name="Vehicle_Type" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_jDqnvPZDEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_jDqnvfZDEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_jDqnvvZDEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" xmi:id="_jDqnv_ZDEe65R_WoQFRyrg"/>
+        </feature>
+        <feature label="Category" length="1000" name="Category" sourceType="VARCHAR" talendType="id_String" xmi:id="_jDqnwPZDEe65R_WoQFRyrg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_jDqnwfZDEe65R_WoQFRyrg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_jDqnwvZDEe65R_WoQFRyrg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_jDqnw_ZDEe65R_WoQFRyrg"/>
+        </feature>
+      </ownedElement>
+      <ownedElement id="_NT-ZoPqxEe6mxOzCyzPf1w" label="NY_p_part5" name="NY_p_part5" tableType="TABLE" xmi:id="_NUAO0PqxEe6mxOzCyzPf1w" xsi:type="relational:TdTable">
+        <feature label="Crash_ID" length="10" name="Crash_ID" sourceType="INT" talendType="id_Integer" xmi:id="_ORXO8PqxEe6mxOzCyzPf1w" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_ORXO8fqxEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_ORXO8vqxEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_ORXO8_qxEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="CRASH_DATE" length="10" name="CRASH_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_ORXO9PqxEe6mxOzCyzPf1w" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_ORXO9fqxEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_ORXO9vqxEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="91" name="DATE" nullable="columnNullable" xmi:id="_ORXO9_qxEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="CRASH_TIME" length="100" name="CRASH_TIME" sourceType="VARCHAR" talendType="id_String" xmi:id="_ORXO-PqxEe6mxOzCyzPf1w" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_ORXO-fqxEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_ORXO-vqxEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_ORXO-_qxEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="Crash_Hour" length="10" name="Crash_Hour" sourceType="INT" talendType="id_Integer" xmi:id="_ORXO_PqxEe6mxOzCyzPf1w" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_ORXO_fqxEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_ORXO_vqxEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_ORXO__qxEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="LATITUDE" length="24" name="LATITUDE" sourceType="REAL" talendType="id_Float" xmi:id="_ORXPAPqxEe6mxOzCyzPf1w" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_ORXPAfqxEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_ORXPAvqxEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="7" name="REAL" nullable="columnNullable" numericPrecisionRadix="2" xmi:id="_ORXPA_qxEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="LONGITUDE" length="24" name="LONGITUDE" sourceType="REAL" talendType="id_Float" xmi:id="_ORXPBPqxEe6mxOzCyzPf1w" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_ORXPBfqxEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_ORXPBvqxEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="7" name="REAL" nullable="columnNullable" numericPrecisionRadix="2" xmi:id="_ORXPB_qxEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="ON_STREET_NAME" length="100" name="ON_STREET_NAME" sourceType="VARCHAR" talendType="id_String" xmi:id="_ORXPCPqxEe6mxOzCyzPf1w" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_ORXPCfqxEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_ORXPCvqxEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_ORXPC_qxEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="NUMBER_OF_PERSONS_INJURED" length="10" name="NUMBER_OF_PERSONS_INJURED" sourceType="INT" talendType="id_Integer" xmi:id="_ORXPDPqxEe6mxOzCyzPf1w" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_ORXPDfqxEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_ORXPDvqxEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_ORXPD_qxEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="NUMBER_OF_PERSONS_KILLED" length="10" name="NUMBER_OF_PERSONS_KILLED" sourceType="INT" talendType="id_Integer" xmi:id="_ORXPEPqxEe6mxOzCyzPf1w" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_ORXPEfqxEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_ORXPEvqxEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_ORXPE_qxEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="NUMBER_OF_PEDESTRIANS_INJURED" length="10" name="NUMBER_OF_PEDESTRIANS_INJURED" sourceType="INT" talendType="id_Integer" xmi:id="_ORXPFPqxEe6mxOzCyzPf1w" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_ORXPFfqxEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_ORXPFvqxEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_ORXPF_qxEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="NUMBER_OF_PEDESTRIANS_KILLED" length="10" name="NUMBER_OF_PEDESTRIANS_KILLED" sourceType="INT" talendType="id_Integer" xmi:id="_ORXPGPqxEe6mxOzCyzPf1w" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_ORXPGfqxEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_ORXPGvqxEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_ORXPG_qxEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="NUMBER_OF_CYCLIST_INJURED" length="10" name="NUMBER_OF_CYCLIST_INJURED" sourceType="INT" talendType="id_Integer" xmi:id="_ORXPHPqxEe6mxOzCyzPf1w" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_ORXPHfqxEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_ORXPHvqxEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_ORXPH_qxEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="NUMBER_OF_CYCLIST_KILLED" length="10" name="NUMBER_OF_CYCLIST_KILLED" sourceType="INT" talendType="id_Integer" xmi:id="_ORXPIPqxEe6mxOzCyzPf1w" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_ORXPIfqxEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_ORXPIvqxEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_ORXPI_qxEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="NUMBER_OF_MOTORIST_INJURED" length="10" name="NUMBER_OF_MOTORIST_INJURED" sourceType="INT" talendType="id_Integer" xmi:id="_ORXPJPqxEe6mxOzCyzPf1w" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_ORXPJfqxEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_ORXPJvqxEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_ORXPJ_qxEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="NUMBER_OF_MOTORIST_KILLED" length="10" name="NUMBER_OF_MOTORIST_KILLED" sourceType="INT" talendType="id_Integer" xmi:id="_ORXPKPqxEe6mxOzCyzPf1w" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_ORXPKfqxEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_ORXPKvqxEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_ORXPK_qxEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="Contributing_Cause" length="1000" name="Contributing_Cause" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_ORXPLPqxEe6mxOzCyzPf1w" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_ORXPLfqxEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_ORXPLvqxEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" xmi:id="_ORXPL_qxEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="Code" length="10" name="Code" sourceType="INT" talendType="id_Integer" xmi:id="_ORXPMPqxEe6mxOzCyzPf1w" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_ORXPMfqxEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_ORXPMvqxEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_ORXPM_qxEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="Vehicle_Type" length="1000" name="Vehicle_Type" sourceType="VARCHAR" talendType="id_String" xmi:id="_ORXPNPqxEe6mxOzCyzPf1w" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_ORXPNfqxEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_ORXPNvqxEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_ORXPN_qxEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="Vehicle_Type_Code" length="4" name="Vehicle_Type_Code" sourceType="VARCHAR" talendType="id_String" xmi:id="_ORXPOPqxEe6mxOzCyzPf1w" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_ORXPOfqxEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_ORXPOvqxEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_ORXPO_qxEe6mxOzCyzPf1w"/>
+        </feature>
+        <feature label="City" length="100" name="City" sourceType="VARCHAR" talendType="id_String" xmi:id="_ORXPPPqxEe6mxOzCyzPf1w" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_ORXPPfqxEe6mxOzCyzPf1w"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_ORXPPvqxEe6mxOzCyzPf1w" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_ORXPP_qxEe6mxOzCyzPf1w"/>
+        </feature>
+      </ownedElement>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_cb785b79-0e82-41c3-ab2d-9f15169d75f0"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>XJS/q2lmdcGLtz3JclQi182KkbRdBxotE+3Wy+w4JGv27u/OLPUjzTFY5KX2aYaCAkLg8t9CVTp7&#13;
+F3QC4awIkA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_5f22b2a6-e185-438d-a7a8-5fd8a4b82ea8"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>5eOrhobfEi2mTFwHcpzsE5xvKpZrho51vOUkuzfiVvyC+veUy47x4Lclkn4LPvLSAuplN/VLSjB+&#13;
+1h3Np2gVbA==</DigestValue></Reference></SignedInfo><SignatureValue>RTGUisEc28soSujyNqAOiR4ZPoQOJxG21EbjlPlztrdbhui9bx5RAcousa1j1T89yhomCtsWrGDD&#13;
+fPins9ZZAGcevLfTjYcsK3kfUxqc0kcuMi0k5sMjoZodPS9OZSzsNTjcOy6tSvHhgmTBjIceAYPX&#13;
+U9XOeFVer6I0XrHqmZ68jbTfAbKRSejVQA/+puPbdIOIPpqP0zs2Dg2ZqSZik2I0YQZgAl4lKspK&#13;
+VZM9CjKDJJWEdLzcTPaecrnEBTJhxNLjCVM+STBQLWS5mWqDweU4fnZGEx9abB416HddtvirhYa5&#13;
+UFOMe0hxEje+0pveBILX9Fl9voXUoPXAkSZAEQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_5f22b2a6-e185-438d-a7a8-5fd8a4b82ea8" Target="#_cb785b79-0e82-41c3-ab2d-9f15169d75f0"><Timestamp>2024-04-15 02:54:53</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

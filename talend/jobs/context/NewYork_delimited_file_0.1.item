@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Default" xmi:id="_7fuTsO5hEe6lpNL3ELNLnQ">
+    <contextParameter comment="" name="NewYork_delimited_file_Header" prompt="NewYork_delimited_file_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_7fuTse5hEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_delimited_file_FieldSeparator" prompt="NewYork_delimited_file_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_7fuTsu5hEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_delimited_file_RowSeparator" prompt="NewYork_delimited_file_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_7fuTs-5hEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_delimited_file_Encoding" prompt="NewYork_delimited_file_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_7fuTtO5hEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_delimited_file_File" prompt="NewYork_delimited_file_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="/Users/shantanumahakal/Desktop/NewYork/NewYork_20240329.tsv" xmi:id="_7fuTte5hEe6lpNL3ELNLnQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Dev" xmi:id="_7fuTtu5hEe6lpNL3ELNLnQ">
+    <contextParameter comment="" name="NewYork_delimited_file_Header" prompt="NewYork_delimited_file_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_7fuTt-5hEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_delimited_file_FieldSeparator" prompt="NewYork_delimited_file_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_7fuTuO5hEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_delimited_file_RowSeparator" prompt="NewYork_delimited_file_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_7fuTue5hEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_delimited_file_Encoding" prompt="NewYork_delimited_file_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_7fuTuu5hEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_delimited_file_File" prompt="NewYork_delimited_file_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="/Users/shantanumahakal/Desktop/NewYork/NewYork_20240329.tsv" xmi:id="_7fuTu-5hEe6lpNL3ELNLnQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Prod" xmi:id="_7fuTvO5hEe6lpNL3ELNLnQ">
+    <contextParameter comment="" name="NewYork_delimited_file_Header" prompt="NewYork_delimited_file_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_7fuTve5hEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_delimited_file_FieldSeparator" prompt="NewYork_delimited_file_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_7fuTvu5hEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_delimited_file_RowSeparator" prompt="NewYork_delimited_file_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_7fuTv-5hEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_delimited_file_Encoding" prompt="NewYork_delimited_file_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_7fuTwO5hEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_delimited_file_File" prompt="NewYork_delimited_file_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="/Users/shantanumahakal/Desktop/NewYork/NewYork_20240329.tsv" xmi:id="_7fuTwe5hEe6lpNL3ELNLnQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Staging" xmi:id="_7fuTwu5hEe6lpNL3ELNLnQ">
+    <contextParameter comment="" name="NewYork_delimited_file_Header" prompt="NewYork_delimited_file_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_7fuTw-5hEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_delimited_file_FieldSeparator" prompt="NewYork_delimited_file_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_7fuTxO5hEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_delimited_file_RowSeparator" prompt="NewYork_delimited_file_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_7fuTxe5hEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_delimited_file_Encoding" prompt="NewYork_delimited_file_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_7fuTxu5hEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_delimited_file_File" prompt="NewYork_delimited_file_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="/Users/shantanumahakal/Desktop/NewYork/NewYork_20240329.tsv" xmi:id="_7fuTx-5hEe6lpNL3ELNLnQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Test" xmi:id="_7fuTyO5hEe6lpNL3ELNLnQ">
+    <contextParameter comment="" name="NewYork_delimited_file_Header" prompt="NewYork_delimited_file_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_7fuTye5hEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_delimited_file_FieldSeparator" prompt="NewYork_delimited_file_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_7fuTyu5hEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_delimited_file_RowSeparator" prompt="NewYork_delimited_file_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_7fuTy-5hEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_delimited_file_Encoding" prompt="NewYork_delimited_file_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_7fuTzO5hEe6lpNL3ELNLnQ"/>
+    <contextParameter comment="" name="NewYork_delimited_file_File" prompt="NewYork_delimited_file_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="/Users/shantanumahakal/Desktop/NewYork/NewYork_20240329.tsv" xmi:id="_7fuTze5hEe6lpNL3ELNLnQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_448f2aaf-6611-4c1e-b320-08368bf9b387"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>MwoS3d2DUFbxC/3YnUfNKumNbP/pd/ywr7m9kU8nWkjv3PNVUWovmF/NX2uSeSdjIYjBEdW75C2N&#13;
+mtrJygsPyQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_fb24c22f-d38b-4684-9355-b766fb2d9f1a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>HLxx/pCBLFNP0TVOyUfXMJCXnTAMPtq82MBtNtPR1MMHY3F6disHnt4WMldaqqatEiZk/j2SBv9s&#13;
+N1RLn3viBw==</DigestValue></Reference></SignedInfo><SignatureValue>GxP0UolZuoZJ+L/VRNJ06KG0t7K4gkcCNg26gf4G6tpuXYO4P9vL6nr7WVPS/bjlC9i0R5i7NEgD&#13;
+1Gm4NwOqESwm2O5zVShRkAojo69OTGfeIqG7FdNMXakQ7E2tiYDUvUWEA05PJlZw0Iuv+m0flnb0&#13;
++I2HVqPsj6Cn/1iJFnAMQq+gjmHOHe/TTyYDbBqjCV/61OLQYar/tCtX5qLrOoWamThanygYne9S&#13;
+y0TYzYV2V1jjx2w5THH2YxEUfEIeNccmyc2mxShqlEokzDZzFLDAzJ/+Bj4606S/CVCRtPKBik/K&#13;
+hVCFZEB9VgphfwSEajvYQtjkcC6+jQ9nMpqyZw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_fb24c22f-d38b-4684-9355-b766fb2d9f1a" Target="#_448f2aaf-6611-4c1e-b320-08368bf9b387"><Timestamp>2024-03-30 06:51:26</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

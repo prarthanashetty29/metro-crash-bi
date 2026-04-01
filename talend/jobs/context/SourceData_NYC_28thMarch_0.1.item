@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Default" xmi:id="_HBbE4O1oEe6WjK0ZXAMzXQ">
+    <contextParameter comment="" name="SourceData_NYC_28thMarch_Encoding" prompt="SourceData_NYC_28thMarch_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_HBbE4e1oEe6WjK0ZXAMzXQ"/>
+    <contextParameter comment="" name="SourceData_NYC_28thMarch_Header" prompt="SourceData_NYC_28thMarch_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_HBbE4u1oEe6WjK0ZXAMzXQ"/>
+    <contextParameter comment="" name="SourceData_NYC_28thMarch_FieldSeparator" prompt="SourceData_NYC_28thMarch_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;,&quot;" xmi:id="_HBbE4-1oEe6WjK0ZXAMzXQ"/>
+    <contextParameter comment="" name="SourceData_NYC_28thMarch_RowSeparator" prompt="SourceData_NYC_28thMarch_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_HBbE5O1oEe6WjK0ZXAMzXQ"/>
+    <contextParameter comment="" name="SourceData_NYC_28thMarch_File" prompt="SourceData_NYC_28thMarch_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/prart/Downloads/Motor_Vehicle_Collisions_-_Crashes_20240328.csv" xmi:id="_HBbE5e1oEe6WjK0ZXAMzXQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="dev" xmi:id="_HBbE5u1oEe6WjK0ZXAMzXQ">
+    <contextParameter comment="" name="SourceData_NYC_28thMarch_Encoding" prompt="SourceData_NYC_28thMarch_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_HBbE5-1oEe6WjK0ZXAMzXQ"/>
+    <contextParameter comment="" name="SourceData_NYC_28thMarch_Header" prompt="SourceData_NYC_28thMarch_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_HBbE6O1oEe6WjK0ZXAMzXQ"/>
+    <contextParameter comment="" name="SourceData_NYC_28thMarch_FieldSeparator" prompt="SourceData_NYC_28thMarch_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;,&quot;" xmi:id="_HBbE6e1oEe6WjK0ZXAMzXQ"/>
+    <contextParameter comment="" name="SourceData_NYC_28thMarch_RowSeparator" prompt="SourceData_NYC_28thMarch_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_HBbE6u1oEe6WjK0ZXAMzXQ"/>
+    <contextParameter comment="" name="SourceData_NYC_28thMarch_File" prompt="SourceData_NYC_28thMarch_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/prart/Downloads/Motor_Vehicle_Collisions_-_Crashes_20240328.csv" xmi:id="_HBbE6-1oEe6WjK0ZXAMzXQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="prod" xmi:id="_HBbE7O1oEe6WjK0ZXAMzXQ">
+    <contextParameter comment="" name="SourceData_NYC_28thMarch_Encoding" prompt="SourceData_NYC_28thMarch_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_HBbE7e1oEe6WjK0ZXAMzXQ"/>
+    <contextParameter comment="" name="SourceData_NYC_28thMarch_Header" prompt="SourceData_NYC_28thMarch_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_HBbE7u1oEe6WjK0ZXAMzXQ"/>
+    <contextParameter comment="" name="SourceData_NYC_28thMarch_FieldSeparator" prompt="SourceData_NYC_28thMarch_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;,&quot;" xmi:id="_HBbE7-1oEe6WjK0ZXAMzXQ"/>
+    <contextParameter comment="" name="SourceData_NYC_28thMarch_RowSeparator" prompt="SourceData_NYC_28thMarch_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_HBbE8O1oEe6WjK0ZXAMzXQ"/>
+    <contextParameter comment="" name="SourceData_NYC_28thMarch_File" prompt="SourceData_NYC_28thMarch_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/prart/Downloads/Motor_Vehicle_Collisions_-_Crashes_20240328.csv" xmi:id="_HBbE8e1oEe6WjK0ZXAMzXQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="test" xmi:id="_HBbE8u1oEe6WjK0ZXAMzXQ">
+    <contextParameter comment="" name="SourceData_NYC_28thMarch_Encoding" prompt="SourceData_NYC_28thMarch_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_HBbE8-1oEe6WjK0ZXAMzXQ"/>
+    <contextParameter comment="" name="SourceData_NYC_28thMarch_Header" prompt="SourceData_NYC_28thMarch_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_HBbE9O1oEe6WjK0ZXAMzXQ"/>
+    <contextParameter comment="" name="SourceData_NYC_28thMarch_FieldSeparator" prompt="SourceData_NYC_28thMarch_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;,&quot;" xmi:id="_HBbE9e1oEe6WjK0ZXAMzXQ"/>
+    <contextParameter comment="" name="SourceData_NYC_28thMarch_RowSeparator" prompt="SourceData_NYC_28thMarch_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_HBbE9u1oEe6WjK0ZXAMzXQ"/>
+    <contextParameter comment="" name="SourceData_NYC_28thMarch_File" prompt="SourceData_NYC_28thMarch_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/prart/Downloads/Motor_Vehicle_Collisions_-_Crashes_20240328.csv" xmi:id="_HBbE9-1oEe6WjK0ZXAMzXQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a2d4de69-8d73-41cb-8dfd-90a4a083c7a8"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>AX6J4Lwlt6wr/bFK318hVei8z2bQYdB3GXRFY46XF6hdcjmqkGdEGrLl5BAehU1hA0pGESoKnKi6&#13;
+AEeQRCmDpg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3b7272d6-66e0-40b8-b065-4b0124edd486"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Gr+E/lEJKIZUPGljqKNg7gXP7rQqBHt/Yb47la1hYPlmZDiUgtgli3MzRC0r/YrLBONyPVaVs5My&#13;
+F27jBVuU1A==</DigestValue></Reference></SignedInfo><SignatureValue>ZBVmPbBbTbalJnuhZH4QtYQkO+o83gCh752JqRp6CngWvWC3rYVRwWbK/+uDlaJbvD2HqpRpdCzv&#13;
+bjHtVow9dsXS8oN6U4lA0qlxK9X3nP/BsgJE/vWwI+Dvw6WRWOcJCY7P84QXLChjTODd8hxzeDjL&#13;
+JTDHyo+5db3fzekKUs4x0EyhFRRzHQ6Fg+NA1KDsolftvI7k9EznW7/c87Cai2SRY0KXBTW06QwD&#13;
+LfyfBgSdSALPmlYn1eLnienSMxLt6SQUB6yRfmCjD11zVlfHq8820r8UNePITZzqKdFCWNQx2NHL&#13;
+2WT6fHxJtlYR2ULcXVT/Y7/7fXT2m2tI5nnwuw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3b7272d6-66e0-40b8-b065-4b0124edd486" Target="#_a2d4de69-8d73-41cb-8dfd-90a4a083c7a8"><Timestamp>2024-04-05 06:38:50</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
